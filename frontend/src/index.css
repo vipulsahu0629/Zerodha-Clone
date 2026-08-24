@@ -11,3 +11,94 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.nav-link {
+  margin-left: 35px;
+}
+
+.footer-link>a {
+  color: #666;
+line-height:2.1;
+}
+ .footer-link>a:hover{
+    color: #6085fd;
+  }
+
+.footer_para_link>p{
+  color: #9b9b9b;
+}
+
+.footer_para_link>p>a:hover {
+  color:black;
+}
+
+.footer_link_bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;           /* equal spacing sabhi links ke beech */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  a {
+  text-decoration: none;
+  color: #9b9b9b;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0;            /* margin-right hata do, gap already spacing de raha hai */
+  white-space: nowrap;
+}
+}
+
+.footer_link_bottom>a:hover {
+  color: #6085fd;
+}
+
+
+.about_Link{
+  color: #424242;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.8;
+  min-width: 350;
+  font-style: normal;
+}
+.about_Link>p>a{
+  text-decoration: none;
+}
+.product-btn{
+  background-color:#6085fd;
+  color:white;
+  border:none; 
+  border-radius:5px;
+}
+.product-btn:hover{
+  background-color:black
+}
+
+.pricing_Charges{
+  padding: 10px;
+  h5{
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  p{
+    font-size: small;
+    line-height: 1.2rem;
+    font-weight: 400;
+    text-align: start;
+  }
+  li{
+    font-size: small;
+  }
+  a{
+    text-decoration: none;
+  }
+  span{
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "folder-color.pathColors": [
+        {
+            "extension": "txt",
+            "color": "foldercolorizer.color_005faf"
+        }
+    ],
+    "folder-color.favoriteColors": [
+        "foldercolorizer.color_00d7ff",
+        "foldercolorizer.color_afafff",
+        "foldercolorizer.color_afd7ff"
+    ]
+}
